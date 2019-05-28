@@ -1,9 +1,10 @@
 import React from 'react';
 import Card from './Card';
+import '../containers/App.css'
 
 const CardList = ({robots}) => {
 	return(
-		<div style= {{ margin: '20px auto'}}>
+		<div className="card-list">
 			{
 				robots.map( (user, i) => {
 					return (
