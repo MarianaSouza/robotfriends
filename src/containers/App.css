@@ -12,13 +12,11 @@ h1{
 }
 
 /* Card List Component */
-
 .card-list{
   margin: 20px auto;
 }
 
 /* Scroll Component */
-
 .scroll{
 	overflow-y: scroll; 
 	border: 3px solid #095959;
@@ -26,21 +24,40 @@ h1{
 	margin: '20px auto';
 }
 
-::-webkit-scrollbar {
+.scroll::-webkit-scrollbar {
     width: 12px;
 }
  
 /* Track */
-::-webkit-scrollbar-track {
+.scroll::-webkit-scrollbar-track {
     -webkit-border-radius: 10px;
     border-radius: 10px;
 }
  
 /* Handle */
-::-webkit-scrollbar-thumb {
+.scroll::-webkit-scrollbar-thumb {
     opacity:0.1;
     -webkit-border-radius: 10px;
     border-radius: 10px;
     background: rgba(0,0,0,0.5); 
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
+
+/* Footer */
+footer{
+    color: #fff;
+    font-size: 20px;
+    margin: 50px 0;
+}
+
+footer a{
+    color: #9eebcf;
+    -webkit-transition: all 0.3s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+    transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */ 
+}
+
+footer a:hover{
+    color: #095959;
+}
+
+
