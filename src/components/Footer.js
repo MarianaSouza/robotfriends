@@ -6,7 +6,7 @@ const Footer = () => {
 		<div>
 		 	<footer>
              
-	          <p>© Robot Friends App 2019 | By <a href="http://www.marianacaldas.com/" target="_blank" rel="noopener noreferrer">Mariana Caldas</a>
+	          <p>© Robot Friends App 2021 | By <a href="https://www.marianacaldas.com/" target="_blank" rel="noopener noreferrer">Mariana Caldas</a>
 	          </p>
   
     		</footer>
